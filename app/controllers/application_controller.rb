@@ -4,6 +4,7 @@
 # so we user can infor name on sing up
 # the before action is called IF the devise controller is called
 class ApplicationController < ActionController::API
+include RackSessionFixController
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   protected

@@ -28,3 +28,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/credentials.yml.enc
+/config/initializers/secret_token.rb
+/config/initializers/devise_secret_token.rb
+/config/initializers/devise.rb
